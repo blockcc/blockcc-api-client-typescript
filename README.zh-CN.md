@@ -5,7 +5,7 @@
 
 ## Language
 
-简体中文|[English](https://github.com/blockcc/blockcc-api-client-typescript/blob/master/README.md )
+简体中文|[English ](https://github.com/blockcc/blockcc-api-client-typescript/blob/master/README.md )
 
 ## 安装
 
