@@ -6,7 +6,7 @@ supporting synchronous requests, as well as event streaming using WebSockets.
 
 ## Language
 
-简体中文|English
+[简体中文](https://github.com/blockcc/blockcc-api-client-typescript/blob/master/README.zh-CN.md )|English
 
 ## Installation
 
