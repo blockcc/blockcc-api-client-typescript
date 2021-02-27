@@ -1,0 +1,59 @@
+{
+  "name": "blockcc-api",
+  "version": "0.0.1",
+  "description": "blockcc-api-client is a lightweight node client for interacting with the [block.cc\nAPIv3](https://blockcc.github.io/blockcc-api-document),\n        providing complete API coverage, and supporting synchronous and asynchronous requests, as well as event\n        streaming using WebSockets.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "author": "Blockcc <support@block.cc> (https://block.cc)",
+  "license": "Apache-2.0",
+  "keywords": [
+    "blockcc",
+    "api",
+    "bitcoin"
+  ],
+  "bugs": {
+    "url": "https://github.com/blockcc/blockcc-api-client-typescript/issues"
+  },
+  "homepage": "https://github.com/blockcc/blockcc-api-client-typescript",
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.11.2",
+    "gts": "^3.1.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.3"
+  },
+  "jest": {
+    "rootDir": "test",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__test__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ws": "^7.4.2"
+  }
+}
