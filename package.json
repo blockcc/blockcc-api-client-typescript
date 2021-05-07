@@ -1,6 +1,6 @@
 {
   "name": "blockcc-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "blockcc-api-client is a lightweight node client for interacting with the [block.cc\nAPIv3](https://blockcc.github.io/blockcc-api-document),\n        providing complete API coverage, and supporting synchronous and asynchronous requests, as well as event\n        streaming using WebSockets.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
