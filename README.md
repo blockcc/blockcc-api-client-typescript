@@ -17,7 +17,7 @@ npm install blockcc-api
 ## Getting started
 
 ```ts
-import * as blockcc from 'typescript_api_test'
+import * as blockcc from 'blockcc-api'
 ```
 
 ## Blockcc HTTP API
