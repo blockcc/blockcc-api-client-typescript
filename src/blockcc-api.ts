@@ -2,8 +2,8 @@ import axios from "axios";
 import * as WebSocket from "ws";
 
 export class HttpClient {
-  private readonly host: string;
 
+  private readonly host: string;
   private readonly apiKey: string;
 
   /**
@@ -11,7 +11,7 @@ export class HttpClient {
    * @param apiKey
    * @param host
    */
-  constructor(apiKey: string, host = "https://data.block.cc") {
+  constructor(apiKey: string, host = "https://data.mifengcha.com") {
     this.host = host;
     this.apiKey = apiKey;
   }
@@ -296,7 +296,7 @@ export class WebSocketClient {
   private readonly host: string;
   private readonly apiKey: string;
 
-  constructor(apiKey: string, host = "wss://data.block.cc/ws/v3") {
+  constructor(apiKey: string, host = "wss://data.mifengcha.com/ws/v3") {
     this.host = host;
     this.apiKey = apiKey;
   }
